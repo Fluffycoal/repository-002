@@ -1,7 +1,7 @@
 <div class="topnav">
     <a href="./">Home</a>
     <a href="about.html">About us</a>
-    <a href="menu.html">Menu</a>
+    <a href="menu.php">Menu</a>
     <a href="contact.php">Contact Us</a>
     
     <div class="topnav-right">
