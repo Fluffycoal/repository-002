@@ -1,6 +1,6 @@
 <div class="topnav">
     <a href="./">Home</a>
-    <a href="about.html">About us</a>
+    <a href="about.php">About us</a>
     <a href="menu.php">Menu</a>
     <a href="contact.php">Contact Us</a>
     
