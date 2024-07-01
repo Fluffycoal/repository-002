@@ -1,4 +1,8 @@
+<?php
+    include_once("templates/header.php");
+    include_once("templates/nav.php");
 
+?>
     
     <p style="text-align: justify;">
         We at Pastry Bakery add in a home made touch in the fine taste of pastries, breads, cakes, tarts that is baked fresh daily, complimented by freshly brewed Kenyan coffee, or our wide range of special hot or iced range of beverages, all made with love.<br>
