@@ -5,6 +5,6 @@
     <a href="contact.php">Contact Us</a>
     
     <div class="topnav-right">
-        <a href="myaccount.html">Sign Up</a>
+        <a href="myaccount.php">Sign Up</a>
     </div>
 </div>
