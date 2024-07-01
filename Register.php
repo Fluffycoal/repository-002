@@ -51,7 +51,7 @@
                         <input type="submit" name="submit" value="submit">
                     </td>
                     <td>
-                        Already a Member?<a href="myaccount.html">Login Here</a>
+                        Already a Member?<a href="myaccount.php">Login Here</a>
                     </td>
                 </tr>
             </table>
