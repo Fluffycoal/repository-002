@@ -1,4 +1,8 @@
+<?php
+    include_once("templates/header.php");
+    include_once("templates/nav.php");
 
+?>
 
 <body>
     <center>
