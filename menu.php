@@ -1,4 +1,8 @@
+<?php
+    include_once("templates/header.php");
+    include_once("templates/nav.php");
 
+?>
 
 <section id="menu">
     <h2>Our Menu</h2>
