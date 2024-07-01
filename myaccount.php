@@ -1,4 +1,8 @@
+<?php
+    include_once("templates/header.php");
+    include_once("templates/nav.php");
 
+?>
 
     <header>
     <h1 style="text-align: center;
@@ -6,7 +10,7 @@
     font-size: large;">My Account
     </h1>
     <form action="login.php" method="post">
-        <Table align="center">
+        <Table1 align="center">
             <tr>
                 <td>Username: </td>
                 <td>
