@@ -1,16 +1,14 @@
 <?php
 
-    $db_server = "localhost";
-    $db_user = "root";
-    $db_pass = "";
-    $db_name = "business db";
+    $servername = "localhost";
+    $username = "root";
+    $password = "";
+    $db_name = "businessdb";
 
-    $conn = mysqli_connect($db_server, $db_user, $db_pass, $db_name);
+    $conn = new mysqli($servername, $username, $password, $db_name);
 
-    if ($conn){
-        echo "You are connected";
+    if ($conn ->connect_error){
+        die("Connection failed: ". $conn->connect_error);
     }
-    else{
-        echo "could not connect!";
-    }
+    echo "Connected Successfully!";
 ?>
