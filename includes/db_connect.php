@@ -5,10 +5,13 @@
     $password = "";
     $db_name = "businessdb";
 
+    try{
     $conn = new mysqli($servername, $username, $password, $db_name);
-
-    if ($conn ->connect_error){
-        die("Connection failed: ". $conn->connect_error);
     }
-    echo "Connected Successfully!";
+    catch(mysqli_sql_exception){
+        echo "Could not connect!";
+    }
+    /*if($conn){
+    echo "You are connected";
+    }*/
 ?>
