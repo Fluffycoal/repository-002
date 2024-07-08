@@ -39,7 +39,7 @@
         <input type="submit" value=">>"/>
 
     </form>
-    <?php print("$output"); ?>
+    <?php echo $output; ?>
     
 </body>
 </html>
